@@ -8,7 +8,7 @@ function squareNumber(){
     console.log("square called");
     let sqNumber = document.getElementById("userSqNumber").value;
     let sqAnswer = Math.pow(sqNumber, 2);
-    document.getElementById("squareNum").innerHTML = sqAnswer;
+    document.getElementById("squaredNum").innerHTML = sqAnswer;
     console.log("the result of squaring", sqNumber, "is", sqAnswer);
 }
 
